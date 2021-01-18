@@ -13,3 +13,22 @@ window.addEventListener('scroll', () => {
         navBar.classList.remove('bg-primary');
     }
 })
+
+// smooth scrolling
+const scrollLinks = document.querySelectorAll('.scroll-link');
+scrollLinks.forEach( item => {
+    item.addEventListener('click', e => {
+        e.preventDefault();
+
+        navLinks.classList.remove('show-links');
+         const id = e.target.getAttribute('href').slice(1);
+         const elem= document.getElementById(id);
+         let position = elem.offsetTop - 62;
+
+        window.scroll({
+            left: 0,
+            top: position,
+            behavior: 'smooth'
+        })
+    })
+})
