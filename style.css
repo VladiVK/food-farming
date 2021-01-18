@@ -619,3 +619,31 @@ p {
 }
 
 /* ***** End of Fields***** */
+/* ***** Footer ***** */
+.footer {
+    background: var(--clr-primary-3);
+}
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30rem;
+    margin: 0 auto 1rem auto;
+}
+.social-link i {
+    font-size: 1.5rem;
+    color: var(--clr-primary-1);
+    transition: var(--transition);
+}
+.social-link:hover i {
+    font-size: 1.5rem;
+    color: var(--clr-black);
+
+}
+.copyright {
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--clr-black);
+    font-family: var(--ff-primary);
+    font-weight: bold;
+}
+/* ***** End of Footer ***** */
