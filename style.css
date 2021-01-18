@@ -496,7 +496,7 @@ p {
 /* ***** End of Services ***** */
 /* ***** Fields ***** */
 .fields-text {
-    width: 85wv;
+    width: 85vw;
     max-width: 50rem;
     margin: 0 auto;
     line-height: 1.6;
