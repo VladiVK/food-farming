@@ -585,9 +585,9 @@ p {
         grid-gap: 1rem;
 
         grid-template-areas: 
-        "a b b"
         "a c d"
-        "a e f";
+        "a e f"
+        "a b b";
     }
     .field {
         height: 100%;
