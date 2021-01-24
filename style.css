@@ -398,7 +398,8 @@ p {
     .about-center {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 3rem;
+        -moz-column-gap: 3rem;
+             column-gap: 3rem;
     }
 
     .about-picture-container::before {
@@ -414,7 +415,8 @@ p {
 
     .about-img {
         height: 450px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .about-info {
@@ -481,7 +483,8 @@ p {
     .services-center {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
+        -moz-column-gap: 2rem;
+             column-gap: 2rem;
     }
 }
 
@@ -489,7 +492,8 @@ p {
     .services-center {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 2rem;
+        -moz-column-gap: 2rem;
+             column-gap: 2rem;
     }
 }
 
@@ -540,7 +544,8 @@ p {
 
 .field-img {
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: var(--radius);
 }
 
